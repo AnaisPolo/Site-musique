@@ -1,0 +1,97 @@
+@font-face {
+font-family: “typofesses”;
+src: url("typefesse-master/Fonts/2-webfonts/Typefesse_Pleine.woff2");
+}
+
+body{
+	margin: 0px;
+}
+
+.Top_bar_start{
+		padding-top: 10px;
+		display: flex;
+		justify-content: space-between;
+		background-color: black;
+		font-family: helvetica bold;
+		color: white;
+		font-size: 30px;
+}
+.Menu {
+	text-align: right;
+	background-color: black;
+	font-size: 50px;
+	padding: 25px;
+}
+
+
+.Menu a {
+
+	text-decoration:none;
+	color: white;
+	font-family: helvetica bold;
+	margin-left: 20px;
+
+}
+
+.Image_container {
+
+	width: 100vw;
+	height:100vh;
+
+	display: grid;
+	box-sizing: border-box;
+	color: white;
+
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+@media (max-width:800px){
+
+	.Image_container {
+
+	grid-template-columns: 1fr 1fr;
+
+	}
+
+}
+
+.image {
+
+	padding: 20px;
+	display: grid;
+	grid-column-start: span 1;
+	grid-column-end:  span 1;
+	border: 1px solid;
+}
+
+.image2 {
+
+	padding: 20px;
+	display: grid;
+	grid-column-start: span 1;
+	grid-column-end:  span 1;
+	border: 1px solid;
+	grid-row-start: 2;
+}
+
+img {
+	padding: center;
+	width: 100%;
+	height: auto;
+}
+
+h2 {
+	font-family: 'Noto Sans', sans-serif;
+	color: black;
+}
+p{
+	margin: 100px;
+	font-family: helvetica bold;
+	font-size: 50px;
+}
+
+.imageverte {
+	margin: 0px;
+}
